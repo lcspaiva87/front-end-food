@@ -9,7 +9,8 @@ export const Board = styled.div`
     align-items: center;
     justify-content: center;
     flex: 1;
-    >header {
+
+    > header {
         padding: 8px;
         font-size: 14px;
         display: flex;
@@ -23,18 +24,17 @@ export const OrdersContainer = styled.div`
     flex-direction: column;
     width: 100%;
     margin-top: 24px;
-
     button {
+        background: #fff;
+        border: 1px solid rgba(204, 204, 204, 0.4);
+        border-radius: 8px;
+        height: 128px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 4px;
-        width: 100%;
-        background: #fff;
-        border: 1px solid rgba(204, 204, 204, 0.4);
-        height: 128px;
-        border-radius: 8px;
         strong {
             font-weight: 500;
         }
